@@ -1,9 +1,11 @@
 services:
-  mysql:
-    image: mysql:latest
-    container_name: mysql
+  postgres:
+    image: bitnami/postgresql:latest
+    container_name: postgres
     ports:
-      - "3306:3306"
+      - "5432:5432"
     environment:
-      MYSQL_ROOT_PASSWORD: docker
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=docker
+      - POSTGRESQL_DATABASE=ignitecall
     restart: unless-stopped
