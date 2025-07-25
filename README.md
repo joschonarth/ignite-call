@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/github/languages/count/joschonarth/ignite-call?style=for-the-badge&color=1F8459&labelColor=1C1E26" alt="languages-count">
 </p>
 
+<img width="1365" height="767" alt="home" src="https://github.com/user-attachments/assets/10062adf-32e7-4fb4-952c-05a7328b1e48" />
+
 ## 📖 Visão Geral
 
 **Ignite Call** é uma aplicação web desenvolvida com **Next.js** para facilitar o agendamento de compromissos. Os usuários podem conectar seu **Google Calendar**, definir horários disponíveis e permitir que outras pessoas reservem horários de forma automática e organizada.
